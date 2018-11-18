@@ -1,0 +1,49 @@
+.container {
+  width:400px;
+  height:auto;
+  margin:100px auto;
+  border:3px solid silver;
+}
+
+input {
+  width:400px;
+  height:100px;
+  border:3px solid grey;
+  box-sizing:border-box;
+}
+
+.wrapper {
+  width:400px;
+  display:grid;
+  grid-template-columns:repeat(4,100px);
+  grid-template-rows:repeat(4,100px);
+}
+
+#reset {
+  width:400px;
+  height:100px;
+  background:silver;
+  border:3px solid grey;
+  border-top:none;
+}
+
+#result {
+  width:200px;
+  height:100px;
+  background:silver;
+  border:3px solid grey;
+  border-top:none;
+}
+
+#num1, #num2, #num3, #num4, #num5, #num6, #num7, #num8, #num9, #num0, #plus, #minus, #multiply, #divide {
+  width:100px;
+  height:100px;
+  background:silver;
+  border:3px solid grey;
+  border-top:none;
+  box-sizing:border-box;
+}
+
+#num1, #num2, #num3, #num5, #num6, #num7, #num9, #num0, #plus, #multiply, #divide {
+  border-right:none;
+}
